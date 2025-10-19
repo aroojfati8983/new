@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI Calculator</title>
 </head>
 <body>
-    <h1>dfjsdkljsl</h1>
+    <h2>BMI Calculator</h2>
+    <script>
+        // get user input
+    let weight=prompt("Enter your weight weight in(kg)");
+    let height=prompt("Enter your height in (m)");
+    // convert into number
+    weight=Number(weight);
+    height=Number(height);
+    // calculator BMI
+    let BMI=weight/(height**2);
+    console.log(BMI);
+</script>
 </body>
 </html>
